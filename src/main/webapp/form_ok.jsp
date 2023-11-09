@@ -10,7 +10,7 @@
 <%
 //--한글 깨지지 않게 추가--
     request.setCharacterEncoding("UTF-8");
-    String username = request.getParameter("username");
+    String username = request.getParameter("name");
 
 %>
 <html>
