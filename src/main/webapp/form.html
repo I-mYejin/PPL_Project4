@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!--<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -70,9 +70,9 @@
                 <div>
                     <fieldset>
                         <label>성별</label><br>
-                        <input type="radio" name="grid" id="male" value="male" />
+                        <input type="radio" name="grid1" id="male" value="male" />
                         <label for="male">남자</label>
-                        <input type="radio" name="grid" id="female" value="female" />
+                        <input type="radio" name="grid1" id="female" value="female" />
                         <label for="female">여자</label>
                     </fieldset>
                 </div>
@@ -80,11 +80,11 @@
                 <div>
                     <label for="email">*이메일</label>
                     <input id="email" type="email" name="email"/>
-                    <select id="semester" name="semester">
-                        <option value="@naver.com">@naver.com</option>
-                        <option value="@gmail.com">@gmail.com</option>
-                        <option value="@hanmail.net">@hanmail.net</option>
-                    </select>
+<!--                    <select id="semester" name="semester">-->
+<!--                        <option value="@naver.com">@naver.com</option>-->
+<!--                        <option value="@gmail.com">@gmail.com</option>-->
+<!--                        <option value="@hanmail.net">@hanmail.net</option>-->
+<!--                    </select>-->
                 </div>
                 <br>
                 <div>
@@ -101,9 +101,9 @@
                 <div>
                     <fieldset>
                         <legend>지금도 연락을 하나요?</legend>
-                        <input type="radio" name="grid" id="yes1" value="yes" />
+                        <input type="radio" name="grid2" id="yes1" value="yes" />
                         <label for="yes1">네</label>
-                        <input type="radio" name="grid" id="no1" value="no" />
+                        <input type="radio" name="grid2" id="no1" value="no" />
                         <label for="no1">아니요</label>
                     </fieldset>
                 </div>
@@ -111,9 +111,9 @@
                 <div>
                     <fieldset>
                         <legend>생일을 챙겨야 하는 친구인가요?</legend>
-                        <input type="radio" name="grid" id="yes2" value="yes" />
+                        <input type="radio" name="grid3" id="yes2" value="yes" />
                         <label for="yes2">네</label>
-                        <input type="radio" name="grid" id="no2" value="no" />
+                        <input type="radio" name="grid3" id="no2" value="no" />
                         <label for="no2">아니요</label>
                     </fieldset>
                 </div>
@@ -125,18 +125,18 @@
                 <br><br>
                 <div class="relationship">
                     <label for="relationship">관계</label>
-                    <textarea id="relationship"></textarea>
+                    <textarea id="relationship" type="text" name="relationship"></textarea>
                 </div>
                 <br><br>
                 <div class="full-width">
                     <label for="message">메모</label>
-                    <textarea id="message"></textarea>
+                    <textarea id="message" type="text" name="message"></textarea>
                 </div>
                 (*표시는 필수항목입니다.)
                 <div class="full-width">
-                    <!-- <button type="button"><class="add" onclick="addFriend()">추가</button> -->
+<!--                     <button type="button"><class="add" onclick="addFriend()">추가</button> -->
                     <input type="submit" value="추가">
-<%--                    <button type="button"><class="cancel" onclick="location.href='index.html'">취소</button>--%>
+<!--<%&#45;&#45;                    <button type="button"><class="cancel" onclick="location.href='index.html'">취소</button>&#45;&#45;%>-->
                 </div>
             </form>
         </main>

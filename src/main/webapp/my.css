@@ -1,0 +1,54 @@
+
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* 네비게이션 바 스타일 조정 */
+.nav-pills > li > a {
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+/* 테이블 스타일 조정 */
+.table-responsive {
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border: 1px solid #ddd;
+}
+
+/* 테이블 헤더 스타일 조정 */
+.table thead th {
+    font-size: 16px;
+}
+
+/* 테이블 내용 스타일 조정 */
+.table tbody td {
+    font-size: 14px;
+}
+
+
+/* <!-- 미디어 쿼리: 화면 크기가 작을 때 스타일 조정 --> */
+
+@media (max-width: 767px) {
+    /* 네비게이션 바 스타일 조정 */
+    .nav-pills > li > a {
+        font-size: 14px;
+    }
+
+    /* 테이블 스타일 조정 */
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    /* 테이블 헤더 스타일 조정 */
+    .table thead th {
+        font-size: 14px;
+    }
+
+    /* 테이블 내용 스타일 조정 */
+    .table tbody td {
+        font-size: 12px;
+    }
+}
